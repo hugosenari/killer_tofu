@@ -7,5 +7,4 @@ COPY . /src
 RUN pip3 install -r /src/requirements.txt
 ENV MUFFIN_CONFIG=killer_tofu.settings.production
 WORKDIR /src/
-ENTRYPOINT muffin killer_tofu run
 EXPOSE 5000

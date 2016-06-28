@@ -1,4 +1,3 @@
 muffin==0.1.4
-muffin-jinja2==0.1.0
 muffin-peewee==0.2.2
 muffin-session==0.0.8
