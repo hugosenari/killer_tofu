@@ -2,6 +2,11 @@
 Python Feed Reader
 
 ## Up and Run
+### Docker
+```bash
+make docker_build
+make docker_run
+```
 ### Virtualenv
 Create `virtualenv` with python 3
 ```bash
