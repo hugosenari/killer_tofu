@@ -2,9 +2,6 @@ from .app import killer_tofu as app, result, collection
 import muffin
 import asyncio
 
-import logging
-logger = logging.getLogger('killer_tofu')
-
 def fingerprint(request, exc=Exception('undefined AcoustID')):
     fingerprint = str(request.match_info.get('fingerprint', None))
     if exc and not fingerprint:
