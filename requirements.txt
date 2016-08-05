@@ -1,2 +1,3 @@
 muffin==0.1.4
-muffin-session==0.0.8
+muffin-rest==1.1.0
+muffin-motor==0.0.3

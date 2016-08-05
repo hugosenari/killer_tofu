@@ -5,5 +5,4 @@ from .music import Music
 
 @app.register('/', '/hello/{name}')
 def hello(request):
-    name = request.match_info.get('name', 'anonymous')
-    return 'Hellos %s!' % name
+    return '{"msgs":["Hello anonymous!"]}'
